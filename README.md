@@ -8,5 +8,13 @@ It supports the following main operations, all of which are O(k), where k is the
 Insertion, Deletion, and Searching operations.
 
 
+The above given code perfroms Insertion and Serching soon deletion method would be added. In order to run the code calling of methods are require.
+
+GROUP MEMBERS:
+M.Anas Khan(15B-023-BS)
+Mansoor Asad(15B-061-BS)
+H.Hamza Imdad(15B-040-BS)
+
+
 
 
