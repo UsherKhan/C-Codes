@@ -7,7 +7,7 @@ class TrieNode
 {
 public:
 	wchar_t c = L'\0';
-	std::unordered_map<wchar_t, TrieNode*> children;
+	unordered_map<wchar_t, TrieNode*> children;
 	bool isLeaf = false;
 
 	TrieNode();
@@ -45,12 +45,10 @@ public:
 	virtual bool startsWith(const wstring &prefix);
 
 
-	virtual TrieNode *searchNode(const std::wstring &str);};
+	virtual TrieNode *searchNode(const wstring &str);};
 
 
 
-TrieNode::TrieNode()
-{}
 
 TrieNode::TrieNode(wchar_t c)
 {
